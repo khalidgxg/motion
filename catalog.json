@@ -1,0 +1,98 @@
+[
+  {
+    "name": "motion-director",
+    "title_ar": "إخراج المشروع",
+    "description": "Use when planning or producing a complete motion graphics video from a brief.",
+    "path": "skills/motion-director/SKILL.md"
+  },
+  {
+    "name": "visual-direction",
+    "title_ar": "الهوية والإبداع البصري",
+    "description": "Use when selecting visual style, art direction, color, composition, or reference treatments.",
+    "path": "skills/visual-direction/SKILL.md"
+  },
+  {
+    "name": "storyboard-animatic",
+    "title_ar": "السيناريو واللوحات",
+    "description": "Use when writing scripts, storyboards, scene timing, or animatics before animation.",
+    "path": "skills/storyboard-animatic/SKILL.md"
+  },
+  {
+    "name": "timing-easing",
+    "title_ar": "الإيقاع ومنحنيات الحركة",
+    "description": "Use when designing timing, easing, anticipation, overshoot, stagger, or seamless loops.",
+    "path": "skills/timing-easing/SKILL.md"
+  },
+  {
+    "name": "arabic-kinetic-type",
+    "title_ar": "الطباعة العربية المتحركة",
+    "description": "Use when animating Arabic or bilingual text, RTL layouts, captions, or kinetic typography.",
+    "path": "skills/arabic-kinetic-type/SKILL.md"
+  },
+  {
+    "name": "transitions-matchcuts",
+    "title_ar": "الانتقالات والربط",
+    "description": "Use when connecting scenes with match cuts, masks, wipes, morphs, or camera continuity.",
+    "path": "skills/transitions-matchcuts/SKILL.md"
+  },
+  {
+    "name": "product-promo",
+    "title_ar": "إعلانات المنتجات والتطبيقات",
+    "description": "Use when making SaaS demos, app promos, product launch videos, or social advertisements.",
+    "path": "skills/product-promo/SKILL.md"
+  },
+  {
+    "name": "logo-brand-motion",
+    "title_ar": "تحريك الشعارات والهوية",
+    "description": "Use when creating logo reveals, brand idents, stings, or repeatable brand motion systems.",
+    "path": "skills/logo-brand-motion/SKILL.md"
+  },
+  {
+    "name": "data-storytelling",
+    "title_ar": "البيانات والإنفوجرافيك",
+    "description": "Use when animating charts, statistics, comparisons, counters, or explanatory diagrams.",
+    "path": "skills/data-storytelling/SKILL.md"
+  },
+  {
+    "name": "three-dimensional",
+    "title_ar": "مشاهد ثلاثية الأبعاد",
+    "description": "Use when designing 3D product shots, abstract scenes, materials, lighting, or camera animation.",
+    "path": "skills/three-dimensional/SKILL.md"
+  },
+  {
+    "name": "sound-design",
+    "title_ar": "الصوت والمزامنة",
+    "description": "Use when planning voiceover, music, sound effects, beat synchronization, or final audio mixing.",
+    "path": "skills/sound-design/SKILL.md"
+  },
+  {
+    "name": "remotion-production",
+    "title_ar": "إنتاج الفيديو بـ Remotion",
+    "description": "Use when implementing frame deterministic React video compositions, previews, and renders with Remotion.",
+    "path": "skills/remotion-production/SKILL.md"
+  },
+  {
+    "name": "web-motion",
+    "title_ar": "حركة الويب والتفاعل",
+    "description": "Use when implementing interactive animation with Motion or GSAP, scroll scenes, layout changes, or gestures.",
+    "path": "skills/web-motion/SKILL.md"
+  },
+  {
+    "name": "lottie-delivery",
+    "title_ar": "تسليم SVG وLottie",
+    "description": "Use when preparing lightweight vector animations, Lottie exports, or SVG assets for web and mobile.",
+    "path": "skills/lottie-delivery/SKILL.md"
+  },
+  {
+    "name": "render-quality",
+    "title_ar": "الرندر وفحص الجودة",
+    "description": "Use when reviewing animation quality, diagnosing render problems, exporting masters, or preparing delivery variants.",
+    "path": "skills/render-quality/SKILL.md"
+  },
+  {
+    "name": "reference-curation",
+    "title_ar": "البحث وانتقاء المراجع",
+    "description": "Use when researching motion references, evaluating creative techniques, or expanding this skills library.",
+    "path": "skills/reference-curation/SKILL.md"
+  }
+]
