@@ -68,7 +68,7 @@
   {
     "name": "remotion-production",
     "title_ar": "إنتاج الفيديو بـ Remotion",
-    "description": "Use when implementing frame deterministic React video compositions, previews, and renders with Remotion.",
+    "description": "Use the bundled official Remotion Agent Skills when creating, animating, editing, previewing, or exporting React videos and motion graphics with Remotion.",
     "path": "skills/remotion-production/SKILL.md"
   },
   {

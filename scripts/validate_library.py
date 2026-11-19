@@ -7,6 +7,17 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def has_anchor(path, fragment):
+    text = path.read_text()
+    if f'id="{fragment}"' in text:
+        return True
+    headings = re.findall(r'^#{1,6}\s+(.+)$', text, re.MULTILINE)
+    return any(
+        re.sub(r'[^\w -]', '', heading.lower()).replace(' ', '-') == fragment
+        for heading in headings
+    )
+
+
 def validate(root=ROOT):
     catalog = json.loads((root / 'catalog.json').read_text())
     errors = []
@@ -37,7 +48,7 @@ def validate(root=ROOT):
             dest = path.parent / unquote(relative) if relative else path
             if not dest.is_file():
                 errors.append(f'Broken link: {path.relative_to(root)} -> {target}')
-            elif fragment and f'id="{fragment}"' not in dest.read_text():
+            elif fragment and not has_anchor(dest, unquote(fragment)):
                 errors.append(f'Missing anchor: {target}')
     for path in root.rglob('*.json'):
         json.loads(path.read_text())
